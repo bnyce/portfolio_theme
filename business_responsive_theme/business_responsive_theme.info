@@ -6,6 +6,7 @@ engine = phptemplate
 stylesheets[all][] = style.css
 stylesheets[all][] = media.css
 stylesheets[all][] = css/bryce.css
+stylesheets[all][] = css/highlighted.css
 scripts[] = js/custom.js
 
 regions[sidebar_first]  = First Sidebar
