@@ -1,5 +1,34 @@
 @import "colors";
 
+.locations-demo {
+    width: 580px;
+	.views-field-name {
+		font-size: 16px;
+	}
+	.views-field-field-library-image img {
+		float: right;
+	}
+	.views-field views-field-field-geofield {
+		clear: both;
+	}
+
+div.library-hours {
+	margin-left: -5px;
+	div {
+		border-bottom: 1px dotted $blue-light;
+		padding: 2px 5px;
+		width: 275px;
+		span.hours {
+			text-align: right;
+			display: block;
+		}
+	}
+	div.last {
+		border-bottom: none;
+	}
+}
+}
+
 p#other-location-links {
 	float: left;
 }
@@ -29,21 +58,6 @@ span.days {
     margin-right: 0.5em;
     text-align: left;
     width: 175px;
-}
-div.library-hours {
-	margin-left: -5px;
-	div {
-		border-bottom: 1px dotted $blue-light;
-		padding: 2px 5px;
-		width: 275px;
-		span.hours {
-			text-align: right;
-			display: block;
-		}
-	}
-	div.last {
-		border-bottom: none;
-	}
 }
 
 
