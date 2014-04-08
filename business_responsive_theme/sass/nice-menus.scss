@@ -30,7 +30,6 @@ body.page-node-33 div ul#nice-menu-1 {
 	}
 	background-color: $blue;
 	clear: both;
-	width: 360px;
 	@include bookmark;
 	h2 {
 		display:none;
@@ -44,7 +43,7 @@ ul#nice-menu-1 {
    	li {
 				ul {
 				clear: both;
-				top: 22px;
+				top: 25px;
 				border-left: 10px solid lighten($blue, 10%);
 				border-width: 11px 0 0 11px;
 				border-color: transparent transparent transparent lighten($blue, 10%);
