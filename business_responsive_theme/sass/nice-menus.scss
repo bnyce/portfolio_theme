@@ -1,7 +1,7 @@
 @import "colors";
 
 @import "patterns";
-ul#nice-menus-1 {
+ul#nice-menu-1 {
 	 li ul {
 		li {
 			border-bottom: 1px dashed transparent;
@@ -15,7 +15,7 @@ ul#nice-menus-1 {
 	}
 }
 
-ul#nice-menus-1 {
+ul#nice-menu-1 {
 	li {
 		&.over > a {	
 			background-color: lighten($blue, 10%);
