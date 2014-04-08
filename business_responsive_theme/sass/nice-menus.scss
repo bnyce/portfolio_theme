@@ -2,6 +2,9 @@
 
 @import "patterns";
 ul#nice-menu-1 {
+	background-color: #0069AA;
+	height: 26px;
+	}
 	 li ul {
 		li {
 			border-bottom: 1px dashed transparent;
@@ -27,6 +30,7 @@ ul#nice-menu-1 {
 	}
 	background-color: $blue;
 	clear: both;
+	width: 360px;
 	@include bookmark;
 	h2 {
 		display:none;
@@ -94,3 +98,8 @@ ul#nice-menu-1 {
 		}
 	}
 
+body.page-node-33 {
+	div.pane-node-field-technologies {
+		margin-top: 180px;
+	}
+}
