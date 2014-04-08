@@ -8,6 +8,7 @@ stylesheets[all][] = media.css
 stylesheets[all][] = css/bryce.css
 stylesheets[all][] = css/highlighted.css
 stylesheets[all][] = css/locations.css
+stylesheets[all][] = css/nice-menus.css
 scripts[] = js/custom.js
 
 regions[sidebar_first]  = First Sidebar
