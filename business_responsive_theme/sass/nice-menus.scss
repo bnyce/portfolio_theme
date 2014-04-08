@@ -18,7 +18,9 @@ ul#nice-menu-1 {
 	}
 }
 
-body.page-node-33 div ul#nice-menu-1 {
+body.page-node-33,
+page-taxonomy-term-1 {
+	div ul#nice-menu-1 {
 	li {
 		&.over > a {	
 			background-color: lighten($blue, 10%);
@@ -34,6 +36,7 @@ body.page-node-33 div ul#nice-menu-1 {
 	h2 {
 		display:none;
 	}
+}
 }
 ul#nice-menu-1 {
 		
@@ -97,7 +100,8 @@ ul#nice-menu-1 {
 		}
 	}
 
-body.page-node-33 {
+body.page-node-33,
+body.page-taxonomy-term-1 {
 	div.pane-nice-menus-1 {
 		h2 {
 			display: none;
@@ -105,8 +109,6 @@ body.page-node-33 {
 		height: 26px;
 		width: 100%;
 		background-color: $blue;
-	}
-	div.pane-node-field-technologies {
-		margin-top: 180px;
+		margin-bottom: 180px;
 	}
 }
